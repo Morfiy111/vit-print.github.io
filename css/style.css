@@ -391,6 +391,14 @@ button.btn-close {
     width: 31%;
 }
 
+.advantages-flex-item:hover i {
+    transition: all .3s linear;
+}
+
+.advantages-flex-item:hover i {
+    transform: scale(1.2);
+}
+
 .red-block {
     background-color: #a40201;
     color: #fff;
