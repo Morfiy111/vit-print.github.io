@@ -450,6 +450,64 @@ button.btn-close {
     color: #a40201;
 }
 
+.subtitle-text-ul {
+    padding: 0;
+    list-style: none;
+    counter-reset: li;
+    font-size: 20px;
+}
+
+.subtitle-text-ul li {
+    position: relative;
+    padding: 12px 20px 20px 28px;
+    margin-left: 40px;
+    transition-duration: 0.3s;
+}
+
+.subtitle-text-ul li:before {
+    border: 6px solid transparent;
+    line-height: 30px;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    width: 42px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #a40201;
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    transition-duration: 0.3s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.subtitle-text-ul li:hover:before {
+    color: #a40201;
+}
+
+.subtitle-text-ul li:after {
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    width: 42px;
+    height: 42px;
+    border: 6px solid #DDDDDD;
+    border-radius: 50%;
+    content: '';
+    opacity: 0.5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.subtitle-text-ul li:hover:after {
+    animation: 500ms ease-in-out 0s bounceIn;
+    opacity: 1;
+    border: 6px solid #a40201;
+}
+
 @media(max-width:1199px) {
     .map-block {
         width: 50%;
