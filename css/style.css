@@ -503,6 +503,70 @@ button.btn-close {
     margin-bottom: 20px;
 }
 
+.card-goods-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.cart-goods-image {
+    width: 40%;
+}
+
+.cart-goods-image img {
+    width: 100%;
+}
+
+.cart-goods-prop {
+    width: 50%;
+}
+
+.cart-tab-property-block-title {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.cart-tab-property {
+    border-bottom: 2px dotted #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.cart-tab-property-grey {
+    background-color: #f1f1f1;
+    border-bottom-color: #fff;
+}
+
+.cart-tab-property-number {
+    text-align: right;
+}
+
+.portfolio-page-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-block-item {
+    width: 19%;
+    margin-bottom: 40px;
+    transition: all .3s linear;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.portfolio-block-item img {
+    width: 100%;
+}
+
+.portfolio-block-item a:hover {
+    border-bottom-color: transparent;
+}
+
 @media(max-width:1199px) {
     .map-block {
         width: 50%;
@@ -620,6 +684,23 @@ button.btn-close {
     .header-line-top {
         flex-wrap: wrap;
     }
+
+    .card-goods-item {
+        flex-wrap: wrap;
+    }
+
+    .cart-goods-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-goods-prop {
+        width: 100%;
+    }
+
+    .portfolio-block-item {
+        width: 32%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -648,5 +729,9 @@ button.btn-close {
 
     .advantages-flex-text {
         font-size: 16px;
+    }
+
+    .portfolio-block-item {
+        width: 48%;
     }
 }
