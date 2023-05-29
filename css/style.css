@@ -89,6 +89,7 @@ button.btn-close {
 .main-page-contacts {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .page-btn {
@@ -180,11 +181,6 @@ button.btn-close {
     text-align: right;
 }
 
-.btn-block-center .page-btn {
-    color: #3f4049;
-    border: 2px solid #3f4049;
-}
-
 .gray-block {
     background-color: #3f4049;
     color: #fff;
@@ -195,11 +191,6 @@ button.btn-close {
 .registration__agree a:hover {
     color: #3f4049;
     border-bottom-color: #3f4049;
-}
-
-.btn-block-center .page-btn:hover {
-    background-color: #3f4049;
-    color: #fff;
 }
 
 .btn-block-center {
@@ -506,6 +497,10 @@ button.btn-close {
     animation: 500ms ease-in-out 0s bounceIn;
     opacity: 1;
     border: 6px solid #a40201;
+}
+
+.social-block {
+    margin-bottom: 20px;
 }
 
 @media(max-width:1199px) {
