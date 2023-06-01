@@ -504,22 +504,19 @@ button.btn-close {
 }
 
 .card-goods-item {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 40px;
 }
 
 .cart-goods-image {
     width: 40%;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .cart-goods-image img {
     width: 100%;
 }
 
-.cart-goods-prop {
-    width: 50%;
-}
 
 .cart-tab-property-block-title {
     font-weight: bold;
@@ -543,6 +540,7 @@ button.btn-close {
 
 .cart-tab-property-number {
     text-align: right;
+    font-weight: bold;
 }
 
 .portfolio-page-block {
@@ -565,6 +563,10 @@ button.btn-close {
 
 .portfolio-block-item a:hover {
     border-bottom-color: transparent;
+}
+
+.buttons-margin {
+    margin: 20px 0;
 }
 
 @keyframes bounceIn {
