@@ -508,15 +508,20 @@ button.btn-close {
 }
 
 .cart-goods-image {
-    width: 40%;
+    width: 30%;
     float: left;
     margin: 0 20px 20px 0;
 }
 
 .cart-goods-image img {
     width: 100%;
+    transition: all .3s linear;
 }
 
+.cart-goods-image:hover img,
+.portfolio-block-item:hover img {
+    transform: scale(1.1);
+}
 
 .cart-tab-property-block-title {
     font-weight: bold;
@@ -559,6 +564,7 @@ button.btn-close {
 
 .portfolio-block-item img {
     width: 100%;
+    transition: all .3s linear;
 }
 
 .portfolio-block-item a:hover {
@@ -567,6 +573,34 @@ button.btn-close {
 
 .buttons-margin {
     margin: 40px 0;
+}
+
+.flex-price-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-price-block-item {
+    border: 2px solid #a40201;
+    width: 49%;
+    text-align: center;
+    padding: 20px;
+    transition: all .3s linear;
+    margin-bottom: 40px;
+}
+
+.flex-price-title {
+    font-size: 28px;
+}
+
+.flex-price-icon-wrap i {
+    font-size: 40px;
+    color: #a40201;
+}
+
+.cart-goods-image a:hover {
+    border-bottom-color: transparent;
 }
 
 @keyframes bounceIn {
